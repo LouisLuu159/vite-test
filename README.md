@@ -20,18 +20,16 @@ yarn dev
 
 ## Building and running in Docker
 
-# development environment
-
 ```sh
 docker-compose -f docker-compose.dev -d
 ```
 
-Exposed in: http://locahost:3000
+- Exposed in: http://locahost:3000
 
-# production environment
+### Production environment
 
 ```sh
 docker-compose up -d
 ```
 
-Exposed in: http://localhost
+- Exposed in: http://localhost
