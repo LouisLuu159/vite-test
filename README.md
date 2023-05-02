@@ -20,6 +20,8 @@ yarn dev
 
 ## Building and running in Docker
 
+### Development environment
+
 ```sh
 docker-compose -f docker-compose.dev -d
 ```
